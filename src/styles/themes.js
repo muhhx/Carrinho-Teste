@@ -6,7 +6,7 @@ export const themeLight = {
 }
 
 export const themeDark = {
-    pageBackground: "#000",
+    pageBackground: "#151515",
     cartBackground: "#292929",
     primary: "#fff",
     secundary: "#323232"

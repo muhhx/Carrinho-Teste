@@ -9,13 +9,14 @@
     <a href="#Sobre">Sobre</a> - 
     <a href="#Funcionalidades">Funcionalidades</a> - 
     <a href="#Tecnologias">Tecnologias</a> - 
-    <a href="#Instalar">Instalar</a>
+    <a href="#Utilizar">Utilizar</a>
 </p>
 
 ## Sobre
 <a href="https://teste-carrinho-murilo-santos.netlify.app/">Clique aqui para acessar a demo do carrinho.</a>
-- Importante: A fonte, Poppins, foi instalada no documento root HTML por boas práticas no Styled-components.
-- Importante: A aplicação foi desenvolvida com Vite, ao invés de create-react-app (utilizar "npm run dev" para executar)
+- Importante: A fonte, Poppins, foi instalada no documento root HTML.
+- Importante: Os arquivos JSON estão localizados na pasta "public".
+- Importante: A aplicação foi desenvolvida com Vite (utilizar "npm run dev" para executar).
 
 ## Funcionalidades
 Requisitos mínimos:
@@ -26,6 +27,7 @@ Requisitos mínimos:
 - [x] O texto de frete grátis deverá aparecer apenas se o valor for acima de R$ 10,00.
 - [x] Seguir o layout.
 - [x] Usar Flex-Box CSS.
+
 Outras funcionalidades:
 - [x] Theme switcher (Light e dark).
 - [x] Totalmente responsivo.
@@ -38,7 +40,7 @@ Outras funcionalidades:
 - React Hooks (useEffect, useState, useContext, custom hooks)
 - Context API (Gerenciamento de estado do Theme switcher)
 
-## Instalar
+## Utilizar
 ```bash
 # Clone este repositório
 $ git clone <https://github.com/muhhx/Carrinho-Teste>

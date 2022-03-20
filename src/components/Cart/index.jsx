@@ -10,20 +10,20 @@ export default function Cart() {
     const [cartOption, setCartOption] = useState(0)
   
     useEffect(() => {
-      const getDataAbaixo = async () => {
+      const getDataWithoutFreeShipping = async () => {
         const response = await fetch("abaixo-10-reais.json")
         const data = await response.json()
         setCartWithoutFreeShipping(data)
       }
 
-      const getDataAcima = async () => {
+      const getDataWithFreeShipping = async () => {
         const response = await fetch("acima-10-reais.json")
         const data = await response.json()
         setCartWithFreeShipping(data)
       }
   
-      getDataAbaixo()
-      getDataAcima()
+      getDataWithoutFreeShipping()
+      getDataWithFreeShipping()
     }, [])
 
   return (
